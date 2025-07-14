@@ -21,5 +21,14 @@
                 Determine the units of the slope of a linear model.
             </description>
         </outcome>
+        <outcome>
+            <title>Find linear model from two points</title>
+            <slug>FM3</slug>
+            <path>outcomes/FM3</path>
+            <description>
+                Find the slope and y-intercept of a linear model
+                given two points on the line.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

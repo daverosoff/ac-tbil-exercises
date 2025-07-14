@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+      <p>
+        Suppose that <m>{{x}}</m> and <m>{{y}}</m> are related
+        by a linear model and that
+        when <m>{{x}} = {{x1}}</m>, <m>{{y}} = {{y1}}</m>,
+        and that when
+        <m>{{x}} = {{x2}}</m>, <m>{{y}} = {{y2}}</m>.
+        Find the slope and <m>y</m>-intercept of the model.
+      </p>
+    </content>
+    <outtro>
+      <p>
+        The slope is <m>{{slope}}</m> and
+        the <m>y</m>-intercept is <m>{{intercept}}</m>.
+      </p>
+    </outtro>
+</knowl>
