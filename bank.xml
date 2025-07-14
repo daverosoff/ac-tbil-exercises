@@ -5,9 +5,9 @@
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
-            <title>Sample Outcome</title>
-            <slug>EX1</slug>
-            <path>outcomes/EX1</path>
+            <title>Recognize proportionality</title>
+            <slug>FM1</slug>
+            <path>outcomes/FM1</path>
             <description>
 Simplify the sum of two monomials.
             </description>
