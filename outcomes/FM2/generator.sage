@@ -10,15 +10,25 @@ class Generator(BaseGenerator):
             var('d'),
             var('m'),
             ]
-        ind_prefix_choices = [
-            "k",
-            "c",
+        ind_unit_choices = [
+            "kg",
+            "g",
+            "mm",
+            "cm",
             "m",
+            "s",
+            "min",
+            "h",
         ]
-        dep_prefix_choices = [
-            "k",
-            "c",
+        dep_unit_choices = [
+            "kg",
+            "g",
+            "mm",
+            "cm",
             "m",
+            "s",
+            "min",
+            "h",
         ]
         i, j = sample([0, 1, 2], 2)
         ind = ind_choices[i]
@@ -26,10 +36,15 @@ class Generator(BaseGenerator):
         slope = randrange(1, 10)
         slope *= choice([-1, 1])
         intercept = randrange(-10, 10)
-        ind_units = choice(ind_prefix_choices)
+        ind_units = choice(ind_unit_choices)
+        dep_units = choice(dep_unit_choices)
+        while dep_units[-1] == ind_units[-1]:
+            dep_units = choice(dep_unit_choices)
         return {
-            "prompt": x^b,
+            "ind": ind,
+            "ind_units": ind_units,
+            "dep": dep,
+            "dep_units": dep_units,
             "lhs": dep,
             "rhs": slope * ind + intercept,
-            "kindly": "inversely" if a < 1 else "directly",
         }

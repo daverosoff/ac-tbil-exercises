@@ -14,6 +14,6 @@
         </p>
     </content>
     <outtro>
-        <p><m>{{left}}/{{right}}</m></p>
+        <p><m>{{dep_units}}/{{ind_units}}</m></p>
     </outtro>
 </knowl>
