@@ -13,5 +13,13 @@
                 inverse proportionality.
             </description>
         </outcome>
+        <outcome>
+            <title>Find units of slope of linear model</title>
+            <slug>FM2</slug>
+            <path>outcomes/FM2</path>
+            <description>
+                Determine the units of the slope of a linear model.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
